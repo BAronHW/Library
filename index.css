@@ -127,6 +127,7 @@ main{
     padding: 10px;
     margin: 10px;
     border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
 }
 
 .card-title {
@@ -135,10 +136,18 @@ main{
 }
 
 .delete-btn{
-    background-color: var(--red);
+    background-color: var(--light-red);
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     border-radius: var(--border-radius);
+}
+
+.read{
+    background-color: var(--light-green);
+}
+
+.notread{
+    background-color: var(--red);
 }
 
 /* Additional styles as needed */

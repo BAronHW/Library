@@ -113,6 +113,8 @@ function createNewCard(book) {
     readStatusElement.textContent = `Read: ${book.isRead ? 'Yes' : 'No'}`;
     card.appendChild(readStatusElement);
 
+    book.isRead === true ? card.classList.add('read') : card.classList.add('notread');
+
     const deleteButton = document.createElement('button');
     deleteButton.textContent = 'X'; // Text for the button
     deleteButton.classList.add('delete-btn');
